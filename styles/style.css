@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+body{
+    background-color: #d56860;
+}
+.header{
+    background-color: #e9ed14;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;   
+}
+.header .logo img{
+    width: auto;
+    height: 115px;
+} 
+.header .links-nav{
+    list-style: none;   
+}
+header .links-nav li{
+    display: inline-block;
+    padding: 0 30px;
+    transition: all 0.5s ease;  
+}
+header .links-nav li:hover{
+    transform: scale(1.2);
+}
+header .links-nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px; 
+}
+header .entry{
+    width: 120px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 2px;
+}
+header .entry:hover{
+    background-color: deepskyblue;
+    color: white;   
+    transition: all 0.5s ease;
+}
